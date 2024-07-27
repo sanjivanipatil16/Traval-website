@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav img {
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/PROJECT/images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+nav{
+    background-color:#ffff4d;
+    width: 100%;
+    height: 7vh;
+    margin-bottom: 7px;
+    
+   
+}
+.menu{
+    float: right;
+    margin-top: 10px;
+    margin-right: 30px;
+    font-size: large;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin: 5px;
+    font-weight:bold;
+    font-size: larger;
+}
+.menu a:hover{
+    color:black;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px;
+}
+/* section{
+    width: 100%;
+    height:90vh;   
+} */
+.mainHeading{
+    margin: 10px;
+   text-align: center;
+   text-decoration:overline gray;
+}
+main{
+    margin:  auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 95%;
+    height: auto;
+}
+
+.cards{
+    display: flex;
+    height: 200px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.card1 , .card2 , .card3, .card4{
+    border-radius: 10px;
+   border: 1px solid black;
+    width: 25%;
+    height:100%;
+    margin: 6px;
+}
+.buttons{
+    height: 35px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1px;
+
+}
+.button1 ,.button2,.button3,.button4{
+    font-size: large;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 20px;
+    background-color: black;
+    float: left;
+    height: 28px;
+    width: 103px;
+    margin: 0px 105px;
+    padding: 2px;
+}
+.button1:hover ,.button2:hover ,.button3:hover ,.button4:hover{
+    border: 3px solid black;
+    padding: 2px;
+    text-align: center;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    background-color: aliceblue;
+   
+}
+.name{
+    display: flex;
+    font: bold;
+    
+}
+.name1 ,.name2 ,.name3 ,.name4 {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    padding: 2px;
+    margin: auto;
+    width: 180px;
+    text-align: center;
+    border-radius: 10px;
+}
+.card1{
+    background-position: center;
+    background-size: cover;
+    background-image: url(/PROJECT/images/kremlin-2.jpg);
+}
+.card1 font{
+    background-color: black;
+    color: white;
+    width: 30px;
+}
+.card2{
+    background-image: url(/PROJECT/images/bastien-nvs-g3CR0UJ1CyM-unsplash.jpg);
+    background-position: center;
+     background-size: cover;
+}
+.card3{
+    background-image: url(/PROJECT/images/imagica.jpg);
+    background-position: center;
+     background-size: cover;
+}
+.card4{
+    background-image: url(/PROJECT/images/Bangalore-Palace.jpg);
+    background-position: center;
+     background-size: cover;
+}
+.package{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+}
+.packageHeading{
+    color: #0014FF;
+    margin-top: 30px;
+    text-align: center;
+}
+.packageCards{
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.packageCard1 ,.packageCard2 ,.packageCard3 ,.packageCard4{
+    position: relative;
+    width: 200px;
+    height: 350px;
+    margin: 4px;
+}
+.packageCard1 h3 ,.packageCard1 h3  ,.packageCard2 h3  ,.packageCard3 h3 ,.packageCard4 h3 {
+    color: aliceblue;
+    height: 30px;
+    width: 140px;
+    padding: 6px 0px;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 15px;
+    place-items: center;
+    margin: auto;
+    margin-top: 2px;
+    text-align: center;
+}
+.img_text{
+    position: relative;
+    width: 100%;
+    height:250px;
+    margin-top: 2px;
+
+}
+.img_text img{
+    position: relative;
+    width: 100%;
+    height:100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.img_text h4{
+    position: absolute;
+    font-size: 9px;
+    color: aliceblue;
+    bottom: 0px;
+    text-align: center;
+    background-color: black;
+    padding: 1px;
+}
+.contentbox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 5px 7px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #0014FF;
+    color: aliceblue;
+}
+.days a{
+    font-weight: bold;
+}
+#contact{
+    border-radius: 20px;
+    font-size: larger;
+}
+#submit{
+    width: 85px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 47px -127px;
+
+
+}
+#submit:hover{
+    background-color:orange;
+    color:white;
+}
+.para{
+    align-items:right;
+}
+
+
+
